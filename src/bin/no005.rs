@@ -6,8 +6,8 @@ fn get_number_with_prompt(prompt: &str) -> i32 {
     let mut input = String::new();
     io::stdin().read_line(&mut input).ok();
     let input = input.trim();
-    let num1: i32 = input.parse().unwrap();
-    num1
+    let value: i32 = input.parse().unwrap();
+    value
 }
 
 fn main() {
