@@ -1,0 +1,194 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'no002'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=no002",
+                    "--package=knock100"
+                ],
+                "filter": {
+                    "name": "no002",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'no002'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=no002",
+                    "--package=knock100"
+                ],
+                "filter": {
+                    "name": "no002",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'no003'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=no003",
+                    "--package=knock100"
+                ],
+                "filter": {
+                    "name": "no003",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'no003'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=no003",
+                    "--package=knock100"
+                ],
+                "filter": {
+                    "name": "no003",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'no000'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=no000",
+                    "--package=knock100"
+                ],
+                "filter": {
+                    "name": "no000",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'no000'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=no000",
+                    "--package=knock100"
+                ],
+                "filter": {
+                    "name": "no000",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'no004'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=no004",
+                    "--package=knock100"
+                ],
+                "filter": {
+                    "name": "no004",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'no004'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=no004",
+                    "--package=knock100"
+                ],
+                "filter": {
+                    "name": "no004",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'no001'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=no001",
+                    "--package=knock100"
+                ],
+                "filter": {
+                    "name": "no001",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'no001'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=no001",
+                    "--package=knock100"
+                ],
+                "filter": {
+                    "name": "no001",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
