@@ -16,6 +16,10 @@ fn main() {
     println!("和: {}", num1+num2);
     println!("差: {}", num1-num2);
     println!("積: {}", num1*num2);
-    println!("商: {}, 余り: {}", num1/num2 , num1 % num2);
+    if num2 != 0 {
+        println!("商: {}, 余り: {}", num1/num2 , num1 % num2);
+    } else {
+        println!("ゼロ除算を行おうとしています");
+    }
 
 }
