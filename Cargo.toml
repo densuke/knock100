@@ -8,6 +8,7 @@ edition = "2018"
 
 [dependencies]
 mylib = { path = "./mylib" }
+num-bigint = "0.3"
 
 [workspace]
 members = [
