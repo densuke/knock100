@@ -4,7 +4,7 @@ fn main() {
         a[i] = i;
     }
 
-    for i in a.it {
+    for i in &a {
         println!("{}", i);
     }
 
