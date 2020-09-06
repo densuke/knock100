@@ -7,6 +7,25 @@
         {
             "type": "lldb",
             "request": "launch",
+            "name": "Debug executable 'no046'",
+            "cargo": {
+                "args": [
+                    "bin",
+                    "--bin=no046",
+                    "--package=knock100"
+                ],
+                "filter": {
+                    "name": "no046",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+
+        {
+            "type": "lldb",
+            "request": "launch",
             "name": "Debug executable 'no037'",
             "cargo": {
                 "args": [
